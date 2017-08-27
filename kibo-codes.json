@@ -130,12 +130,12 @@
 	}, {
 		"name": "Light",
 		"code": "24",
-		"emoji": "🌞",
+		"emoji": "☼",
 		"color": "#d1b3ff"
 	}, {
 		"name": "Dark",
 		"code": "25",
-		"emoji": "🌙",
+		"emoji": "☽",
 		"color": "#d1b3ff"
 	}]
 }, {
@@ -180,12 +180,12 @@
 	}, {
 		"name": "Until Light",
 		"code": "41",
-		"emoji": "🌞",
+		"emoji": "☼",
 		"color": "lightgray"
 	}, {
 		"name": "Until Dark",
 		"code": "42",
-		"emoji": "🌙",
+		"emoji": "☽",
 		"color": "lightgray"
 	}, {
 		"name": "Unil Near",
