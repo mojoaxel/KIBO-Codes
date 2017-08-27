@@ -1,3 +1,7 @@
 #intro, #githubRibbon {
 	display: none;
 }
+
+.block {
+	page-break-inside: avoid;
+}
