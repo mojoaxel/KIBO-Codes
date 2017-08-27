@@ -1,0 +1,50 @@
+<html>
+<head>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jsbarcode/3.8.0/barcodes/JsBarcode.code39.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="blocks.css" type="text/css" id="stylelink">
+  <link rel="stylesheet" type="text/css" href="print.css" media="print">
+</head>
+<body>
+	<h1>KIBO Programming Block Codes</h1>
+
+	<article id="intro">
+		This are programming codes for the KIBO Robot.<br>
+		The KIBO Robot is produced and sold by <a href="http://www.shop.kinderlabrobotics.com">KinderLabrobotics</a>.
+
+		<h3>Change Style</h3>
+		<form action="#" name="style" id="style" onsubmit="return false;">
+			<select id="styleselector" name="style">
+				<option value="blocks.css">Blocks</option>
+				<option value="codes.css">Print Codes</option>
+			</select>
+    </form>
+	</article>
+
+	<div class="container">loading codes...</div>
+
+	<script type="text/javascript">
+		$.getJSON("kibo-codes.json", function(blockTypes) {
+			console.log(blockTypes);
+			var $container = $('.container').empty();
+			blockTypes.forEach(function(blocks) {
+				var $blockType = $('<div class="blocktype"></div>');
+				$blockType.append('<h2>' + blocks.type + '</h2>');
+				blocks.codes.forEach(function(code) {
+					var $block = $('<div class="block" style="background-color:'+code.color+'"></div>');
+					$block.append('<div class="name">'+code.name+'</div>');
+					$block.append('<div class="emoji" '+ ( code.emojiColor ? 'style="background-color:'+code.emojiColor+';color:white;' : '') +'">'+code.emoji+'</div>');
+					$block.append('<div class="barcode"><svg class="barcode" jsbarcode-value="'+code.code+'" jsbarcode-format="CODE39" jsbarcode-width="1" jsbarcode-height="20" jsbarcode-displayValue="false"  jsbarcode-textmargin="0" jsbarcode-fontoptions="bold" jsbarcode-margin="5"></svg></div>');
+					$blockType.append($block);
+				});
+				$container.append($blockType);
+			});
+			JsBarcode("svg.barcode").init();
+		});
+
+		$('#styleselector').change(function(){
+			$('#stylelink').attr('href',$(this).val());
+		});
+	</script>
+</body>
+</html>

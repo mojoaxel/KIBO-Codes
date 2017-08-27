@@ -1,0 +1,201 @@
+[{
+	"type": "Begin/End",
+	"codes": [{
+		"name": "Begin",
+		"code": "01",
+		"emoji": "",
+		"emojiColor": "green",
+		"color": "lightgreen"
+	}, {
+		"name": "End",
+		"code": "99",
+		"emoji": "",
+		"emojiColor": "red",
+		"color": "#ff9999"
+	}]
+}, {
+	"type": "Action",
+	"codes": [{
+		"name": "Beep",
+		"code": "10",
+		"emoji": "♪",
+		"color": "#ffcc66"
+	}, {
+		"name": "Sing",
+		"code": "11",
+		"emoji": "♫",
+		"color": "#ffcc66"
+	}]
+}, {
+	"type": "Lights",
+	"codes": [{
+		"name": "White Light",
+		"code": "43",
+		"emoji": "💡",
+		"emojiColor": "white",
+		"color": "yellow"
+	}, {
+		"name": "Red Light",
+		"code": "44",
+		"emoji": "💡",
+		"emojiColor": "red",
+		"color": "yellow"
+	}, {
+		"name": "Blue Light",
+		"code": "45",
+		"emoji": "💡",
+		"emojiColor": "blue",
+		"color": "yellow"
+	}]
+}, {
+	"type": "Sound Module",
+	"codes": [{
+		"name": "Play △",
+		"code": "52",
+		"emoji": "💬",
+		"color": "#ffcc66"
+	}, {
+		"name": "Play ○",
+		"code": "53",
+		"emoji": "💬",
+		"color": "#ffcc66"
+	}, {
+		"name": "Play ◻",
+		"code": "54",
+		"emoji": "💬",
+		"color": "#ffcc66"
+	}]
+}, {
+	"type": "Move",
+	"codes": [{
+		"name": "Forward",
+		"code": "02",
+		"emoji": "↑",
+		"color": "lightblue"
+	}, {
+		"name": "Backward",
+		"code": "03",
+		"emoji": "↓",
+		"color": "lightblue"
+	}, {
+		"name": "Turn Left",
+		"code": "04",
+		"emoji": "↶",
+		"color": "lightblue"
+	}, {
+		"name": "Turn Right",
+		"code": "05",
+		"emoji": "↷",
+		"color": "lightblue"
+	}, {
+		"name": "Shake",
+		"code": "06",
+		"emoji": "↭",
+		"color": "lightblue"
+	}, {
+		"name": "Spin",
+		"code": "07",
+		"emoji": "⟳",
+		"color": "lightblue"
+	}]
+}, {
+	"type": "Condition",
+	"codes": [{
+		"name": "Wait for clap",
+		"code": "50",
+		"emoji": "👏",
+		"color": "#DDA0DD"
+	}, {
+		"name": "If Begin",
+		"code": "15",
+		"emoji": "?",
+		"emojiColor": "green",
+		"color": "#d1b3ff"
+	}, {
+		"name": "If End",
+		"code": "16",
+		"emoji": "?",
+		"emojiColor": "red",
+		"color": "#d1b3ff"
+	}, {
+		"name": "Near",
+		"code": "20",
+		"emoji": "⇥",
+		"color": "#d1b3ff"
+	}, {
+		"name": "Far",
+		"code": "21",
+		"emoji": "↦",
+		"color": "#d1b3ff"
+	}, {
+		"name": "Light",
+		"code": "24",
+		"emoji": "🌞",
+		"color": "#d1b3ff"
+	}, {
+		"name": "Dark",
+		"code": "25",
+		"emoji": "🌙",
+		"color": "#d1b3ff"
+	}]
+}, {
+	"type": "Loop",
+	"codes": [{
+		"name": "Repeat Begin",
+		"code": "30",
+		"emoji": "⥁",
+		"emojiColor": "green",
+		"color": "lightgray"
+	}, {
+		"name": "Repeat End",
+		"code": "31",
+		"emoji": "⥁",
+		"emojiColor": "red",
+		"color": "lightgray"
+	}, {
+		"name": "One time",
+		"code": "32",
+		"emoji": "1",
+		"color": "lightgray"
+	}, {
+		"name": "Two times",
+		"code": "33",
+		"emoji": "2",
+		"color": "lightgray"
+	}, {
+		"name": "Three times",
+		"code": "34",
+		"emoji": "3",
+		"color": "lightgray"
+	}, {
+		"name": "Four times",
+		"code": "35",
+		"emoji": "4",
+		"color": "lightgray"
+	}, {
+		"name": "Forever",
+		"code": "40",
+		"emoji": "∞",
+		"color": "lightgray"
+	}, {
+		"name": "Until Light",
+		"code": "41",
+		"emoji": "🌞",
+		"color": "lightgray"
+	}, {
+		"name": "Until Dark",
+		"code": "42",
+		"emoji": "🌙",
+		"color": "lightgray"
+	}, {
+		"name": "Unil Near",
+		"code": "37",
+		"emoji": "⇥",
+		"color": "lightgray"
+	}, {
+		"name": "until Far",
+		"code": "38",
+		"emoji": "↦",
+		"color": "lightgray"
+	}]
+}]

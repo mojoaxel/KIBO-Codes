@@ -1,0 +1,31 @@
+.blocktype {
+	clear: none;
+	width: 250px;
+	float: left;
+	display: block;
+	padding: 20px;
+}
+
+.block {
+	background: none !important;
+	border: none;
+	clear: both;
+	height: 30px;
+	width: auto;
+	margin: 0 0 10px 0;
+}
+
+.block > div {
+	display: inline-block;
+	float: left;
+}
+
+.block > .name {
+	font-size: 18px;
+	width: 150px;
+	text-align: right;
+}
+
+.block > .emoji {
+	display: none;
+}

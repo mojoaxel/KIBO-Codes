@@ -1,0 +1,50 @@
+body {
+	font-family: cursive, serif;
+}
+
+.blocktype {
+	clear: left;
+}
+
+.blocktype:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.block {
+	position: relative;
+	height: 100px;
+	width: 100px;
+	border: 1px solid black;
+	border-radius: 10px;
+	float: left;
+	margin: 10px;
+}
+
+.block .name {
+	font-family: cursive, serif;
+	text-transform: uppercase;
+	font-size: 11px;
+	text-align: center;
+	height: 15px;
+	padding: 3px;
+}
+
+.block .emoji {
+	text-align: center;
+	font-size: 32px;
+	line-height: 45px;
+	width: 45px;
+	height: 45px;
+	border-radius: 100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.block .barcode {
+	position: absolute;
+	bottom: 0px;
+	text-align: center;
+	margin: 0px 6px;
+}
