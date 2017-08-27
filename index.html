@@ -36,7 +36,7 @@
 				blocks.codes.forEach(function(code) {
 					var $block = $('<div class="block" style="background-color:'+code.color+'"></div>');
 					$block.append('<div class="name">'+code.name+'</div>');
-					$block.append('<div class="emoji" '+ ( code.emojiColor ? 'style="background-color:'+code.emojiColor+';color:white;' : '') +'">'+code.emoji+'</div>');
+					$block.append('<div class="emoji" '+ ( code.emojiColor ? 'style="background-color:'+code.emojiColor+';color:white;border:1px solid black;' : '') +'">'+code.emoji+'</div>');
 					$block.append('<div class="barcode"><svg class="barcode" jsbarcode-value="'+code.code+'" jsbarcode-format="CODE39" jsbarcode-width="1" jsbarcode-height="20" jsbarcode-displayValue="false"  jsbarcode-textmargin="0" jsbarcode-fontoptions="bold" jsbarcode-margin="5"></svg></div>');
 					$blockType.append($block);
 				});

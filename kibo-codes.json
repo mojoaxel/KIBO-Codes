@@ -19,11 +19,13 @@
 		"name": "Beep",
 		"code": "10",
 		"emoji": "♪",
+		"emojiColor": "#ff8000",
 		"color": "#ffcc66"
 	}, {
 		"name": "Sing",
 		"code": "11",
 		"emoji": "♫",
+		"emojiColor": "#ff8000",
 		"color": "#ffcc66"
 	}]
 }, {
@@ -55,7 +57,7 @@
 		"emoji": "💬",
 		"color": "#ffcc66"
 	}, {
-		"name": "Play ○",
+		"name": "Play ◎",
 		"code": "53",
 		"emoji": "💬",
 		"color": "#ffcc66"
@@ -70,32 +72,38 @@
 	"codes": [{
 		"name": "Forward",
 		"code": "02",
-		"emoji": "↑",
+		"emoji": "⬆",
+		"emojiColor": "#0066ff",
 		"color": "lightblue"
 	}, {
 		"name": "Backward",
 		"code": "03",
-		"emoji": "↓",
+		"emoji": "⬇",
+		"emojiColor": "#0066ff",
 		"color": "lightblue"
 	}, {
 		"name": "Turn Left",
 		"code": "04",
 		"emoji": "↶",
+		"emojiColor": "#0066ff",
 		"color": "lightblue"
 	}, {
 		"name": "Turn Right",
 		"code": "05",
 		"emoji": "↷",
+		"emojiColor": "#0066ff",
 		"color": "lightblue"
 	}, {
 		"name": "Shake",
 		"code": "06",
 		"emoji": "↭",
+		"emojiColor": "#0066ff",
 		"color": "lightblue"
 	}, {
 		"name": "Spin",
 		"code": "07",
 		"emoji": "⟳",
+		"emojiColor": "#0066ff",
 		"color": "lightblue"
 	}]
 }, {
@@ -121,21 +129,25 @@
 		"name": "Near",
 		"code": "20",
 		"emoji": "⇥",
+		"emojiColor": "#333399",
 		"color": "#d1b3ff"
 	}, {
 		"name": "Far",
 		"code": "21",
 		"emoji": "↦",
+		"emojiColor": "#333399",
 		"color": "#d1b3ff"
 	}, {
 		"name": "Light",
 		"code": "24",
 		"emoji": "☼",
+		"emojiColor": "#333399",
 		"color": "#d1b3ff"
 	}, {
 		"name": "Dark",
 		"code": "25",
 		"emoji": "☽",
+		"emojiColor": "#333399",
 		"color": "#d1b3ff"
 	}]
 }, {
@@ -156,46 +168,55 @@
 		"name": "One time",
 		"code": "32",
 		"emoji": "1",
+		"emojiColor": "#cc99ff",
 		"color": "lightgray"
 	}, {
 		"name": "Two times",
 		"code": "33",
 		"emoji": "2",
+		"emojiColor": "#cc99ff",
 		"color": "lightgray"
 	}, {
 		"name": "Three times",
 		"code": "34",
 		"emoji": "3",
+		"emojiColor": "#cc99ff",
 		"color": "lightgray"
 	}, {
 		"name": "Four times",
 		"code": "35",
 		"emoji": "4",
+		"emojiColor": "#cc99ff",
 		"color": "lightgray"
 	}, {
 		"name": "Forever",
 		"code": "40",
 		"emoji": "∞",
+		"emojiColor": "#cc99ff",
 		"color": "lightgray"
 	}, {
 		"name": "Until Light",
 		"code": "41",
 		"emoji": "☼",
+		"emojiColor": "#333399",
 		"color": "lightgray"
 	}, {
 		"name": "Until Dark",
 		"code": "42",
 		"emoji": "☽",
+		"emojiColor": "#333399",
 		"color": "lightgray"
 	}, {
 		"name": "Unil Near",
 		"code": "37",
 		"emoji": "⇥",
+		"emojiColor": "#333399",
 		"color": "lightgray"
 	}, {
-		"name": "until Far",
+		"name": "Until Far",
 		"code": "38",
 		"emoji": "↦",
+		"emojiColor": "#333399",
 		"color": "lightgray"
 	}]
 }]
