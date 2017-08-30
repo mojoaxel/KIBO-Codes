@@ -1,7 +1,10 @@
-#intro, #styleSwitcher, #githubRibbon {
+#intro,
+#styleSwitcher,
+#githubRibbon {
 	display: none;
 }
 
+.blocktype,
 .block {
 	page-break-inside: avoid;
 }
