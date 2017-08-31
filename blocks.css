@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Walter+Turncoat');
+
 body {
-	font-family: cursive, serif;
+	font-family: 'Walter Turncoat', cursive, serif;
 }
 
 .blocktype {
@@ -23,7 +25,6 @@ body {
 }
 
 .block .name {
-	font-family: cursive, serif;
 	text-transform: uppercase;
 	font-size: 11px;
 	text-align: center;
